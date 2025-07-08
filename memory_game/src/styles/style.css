@@ -1,0 +1,59 @@
+body {
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  text-align: center;
+  background:linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+}
+
+#reset-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+.grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 80px);
+  justify-content: center;
+  margin: 20px auto;
+}
+.card {
+  width: 80px;
+  height: 80px;
+  background: #1e90ff;
+  color: transparent;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+.card.open {
+  background: #fff;
+  color: black;
+  transform: rotateY(180deg);
+}
+.toast {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  opacity: 0.9;
+  transition: opacity 0.5s;
+}
+.toast.hidden {
+  display: none;
+}
+
+footer {
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+}
