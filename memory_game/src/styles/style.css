@@ -55,6 +55,7 @@ body {
 }
 
 footer {
+    padding: 20px 40px;
     font-family: "Press Start 2P", system-ui;
     background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
 }
